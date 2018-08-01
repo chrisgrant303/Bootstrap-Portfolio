@@ -1,0 +1,198 @@
+/* Universal Elements and General Styling */
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url("../images/oriental.png");
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.75;
+    color: #777;
+    position: relative;
+    padding-bottom:100px;    
+    min-height: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #ccc;
+}
+
+h3{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #ccc;
+}
+
+.container{
+    margin: 0px auto;
+}
+
+.row{
+    margin: auto ;
+    height: 100%
+}
+/*.......END UNIVERSAL ELEMENT STYLING.....*/
+
+/* Begin Navbar Styling Elements*/
+.navbar{
+    background: #ffffff;
+    border-width: 0 0 2px 0;
+    border-color: #ccc;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar-brand{
+    background: #4aaaa5;
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 600;
+    padding: 30px 5px;
+    height: 100%;
+}
+
+.navbar-links{
+    color: #777777;
+}
+
+a:visited{
+    color:#777777;
+}
+
+a:hover{
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+li{
+    padding-right: 10px;
+}
+
+ul{
+    margin-top: 29px;
+}
+
+.container-fluid .navbar-brand{
+    padding: 25px;
+}
+
+.container-fluid li{
+    padding:15px;
+}
+/*... END NAV BAR STYLING ELEMENTS ... */
+
+/* Box Content Styling Elements */
+
+.box{
+    background: #ffffff;
+    padding: 25px;  
+    border: solid 2px #ddd;
+    margin: 0px auto 40px;
+    max-width: 100%;
+}
+
+.box-content{
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.p{
+    float:right;
+    justify-content: right;
+}
+
+.btn {
+    background-color: #4aaaa5;
+}
+/* ... END BOX STYLING ELEMENTS ... */
+
+/* Begin Footer Styling */
+.footer{
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    background: gray;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-top: 3px solid #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+}/*... END FOOTER STYLING ELEMENTS ...*/
+
+/* Begin Portfolio Styling Elements */
+
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .portfolio-labels {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+
+  .descBox{
+    width:200px;
+    height:33px;
+    background-color:#4aaaa5;
+    color:#EAEEEB;
+    text-align:center;
+    padding:10px;
+    padding-top: 7px;
+    position: relative;
+    bottom:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+  /* ... END PORTFOLIO STYLING ELEMENTS ... */
+
